@@ -8,6 +8,9 @@ header {
 
 header .container {
   position: relative; }
+  @media (max-width: 980px) {
+    header .container .container {
+      position: static; } }
 
 .menu-principal {
   position: absolute;
