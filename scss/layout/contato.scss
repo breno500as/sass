@@ -1,0 +1,35 @@
+@import '../helpers/variables';
+@import '../helpers/mixins';
+
+/** Contato **/
+.contato input,
+.contato button {
+  display: block;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contato input,
+textarea {
+  width: 100%;
+  margin-bottom: .8em;
+  padding: 4px 8px;
+  @include arredonda;
+  border: 2px solid #ccc;
+}
+
+.contato button {
+  margin: 0 auto;
+  background: $cor-padrao;
+  border: 0;
+  color: #fff;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  @include arredonda;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
