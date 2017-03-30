@@ -1,5 +1,6 @@
 @import '../helpers/variables';
 @import '../helpers/mixins';
+@import '../helpers/placeholders';
 
 /** Contato **/
 .contato input,
@@ -30,6 +31,6 @@ textarea {
   height: 38px;
   font-size: 1.2em;
   @include arredonda;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  @extend %sombra-padrao;
 }
 
