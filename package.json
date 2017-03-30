@@ -4,7 +4,9 @@
   "description": "pre processor css framework",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "node-sass": "node-sass scss/ -o css/",
+    "sass": "gulp sass",
+    "sass-watch": "gulp sass:watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,8 @@
   },
   "homepage": "https://github.com/breno500as/sass#readme",
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
     "node-sass": "^4.5.2"
   }
 }
