@@ -1,0 +1,12 @@
+target
+.settings/*
+!.settings/.jsdtscope
+.project
+.classpath
+/.tern-project
+/server/node_modules/
+/client/node_modules/
+/client/js/app
+/node_modules/
+/.vscode/chrome
+npm-debug.log
